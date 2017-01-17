@@ -103,7 +103,7 @@ function respond() {
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/960x960.png.61eb70a675384482a375b215ee8ff1ee.large");
+    postMessage("https://i.groupme.com/746x560.jpeg.97ace1a0d92e458e812c5590aac83395");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
