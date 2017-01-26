@@ -6,7 +6,7 @@ var botID = process.env.BOT_ID;
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
       botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/;
-      botRegexAd=/^\/advance/;botRegexGTA = /^\/gayh/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
+      botRegexAd=/^\/advance/;botRegexGTA = /^\/hellyeah/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/morefun/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/;botRegexsch = /^\/sch/;
@@ -103,7 +103,7 @@ function respond() {
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/746x560.jpeg.97ace1a0d92e458e812c5590aac83395");
+    postMessage("https://i.groupme.com/1440x1347.png.0c9c2ae2e391452da66d6e0bc761c371.large");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
