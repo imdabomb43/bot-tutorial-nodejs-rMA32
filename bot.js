@@ -31,7 +31,7 @@ function respond() {
   } 
   else if(request.text && botRegexStop.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/722x1280.jpeg.0782b86fde3a4189af29e14aa333fd06.large");
+    postMessage("https://i.groupme.com/1280x1280.png.bbb87521c3d14ef4b82761d8d1b1edb4.large");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
