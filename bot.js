@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/vance/;botRegexGTA = /^\/hellyeah/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/morefun/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/;botRegexsch = /^\/sch/;
+      botRegexSlut = /^\/cody/; botRegexStop = /^\/stop/;botRegexsch = /^\/sch/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/warbz/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
@@ -26,7 +26,7 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/640x364.jpeg.f8a0e216bf7e42ed9a86b3ae23cc2ff1.large");
+    postMessage("https://i.groupme.com/722x1280.jpeg.0782b86fde3a4189af29e14aa333fd06.large");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
