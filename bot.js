@@ -26,7 +26,7 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/500x500.jpeg.c48217904c3b402389e262cc0b4226c2");
+    postMessage("https://i.groupme.com/500x500.jpeg.9617b85890e84b66b3dc2748842abd04.large");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
