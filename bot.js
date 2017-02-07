@@ -9,8 +9,8 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gayfish/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/c789/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/champ/; botRegexStop = /^\/itsbroken/;botRegexsch = /^\/sch/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
+      botRegexSlut = /^\/history/; botRegexStop = /^\/itsbroken/;botRegexsch = /^\/sch/;
+      botRegexProp = /^\/EOTP/;botRegexKys = /^\/kys/; botRegexSlam = /^\/waivers/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/warbz/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
       
@@ -26,7 +26,7 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/500x500.jpeg.9617b85890e84b66b3dc2748842abd04.large");
+    postMessage("https://eotpmadden.wordpress.com/superbowlhistory/");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
@@ -36,7 +36,7 @@ function respond() {
   } 
   else if(request.text && botRegexProp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
+    postMessage("https://eotpmadden.wordpress.com/");
     this.res.end();
   }
   else if(request.text && botRegexKys.test(request.text)) {
@@ -46,7 +46,7 @@ function respond() {
   } 
   else if(request.text && botRegexSlam.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://pbs.twimg.com/profile_images/587294731471757313/ZpI5PfKq.jpg");
+    postMessage("https://eotpmadden.wordpress.com/frontoffice/waiverclaim/");
     this.res.end();
   } 
   else if(request.text && botRegexDaf.test(request.text)) {
@@ -98,7 +98,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1xkRp2kiHL-HELul-IZ6jhIlP1-sRiyiQX2X9OMwwU_U/edit");
+    postMessage("https://eotpmadden.wordpress.com/rules/");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
@@ -163,7 +163,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/forms/d/e/1FAIpQLSdrbe5iBRaBC7EWoodVm8z6285-dG2EdHXAOMOgz8md8T1jwQ/viewform");
+    postMessage("https://eotpmadden.wordpress.com/frontoffice/trade/");
     this.res.end();
   }
 			
