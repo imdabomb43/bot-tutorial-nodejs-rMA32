@@ -83,7 +83,7 @@ function respond() {
   
   else if(request.text && botRegexOW.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("www.daddyleagues.com/maddenrating/");
+    postMessage("https://docs.google.com/spreadsheets/d/1eFwPN18TTzKL52vWOjWtFsevMpBiSW7gCZuchLrbqHc/edit#gid=478583670");
     this.res.end();
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
