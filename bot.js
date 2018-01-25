@@ -163,7 +163,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/forms/d/e/1FAIpQLSdrbe5iBRaBC7EWoodVm8z6285-dG2EdHXAOMOgz8md8T1jwQ/viewform");
+    postMessage("https://docs.google.com/spreadsheets/d/1IQ6DZYjG_yz9MwJofz8B-Bn6Vu1Mm4uvMX8LJmVZ8ks/edit#gid=1446610315");
     this.res.end();
   }
 			
